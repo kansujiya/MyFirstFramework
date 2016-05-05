@@ -92,7 +92,7 @@ s.license      = "MIT"
 
   #s.source_files  = "Classes", "Classes/**/*.{h,m}"
 
-  s.source_files  = “MyFirstFramework”,“*.framework”
+# s.source_files  = “MyFirstFramework”,“*.framework”
 
   s.exclude_files = "Classes/Exclude"
 
@@ -124,7 +124,7 @@ s.license      = "MIT"
 
   # s.library   = "iconv"
   # s.libraries = "iconv", "xml2"
-
+s.vendored_frameworks = '*.framework'
 
   # ――― Project Settings ――――――――――――――――――――――――――――――――――――――――――――――――――――――――― #
   #
